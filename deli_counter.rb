@@ -7,6 +7,7 @@ def line(katz_deli)
        return "The line is currently empty."
      end
    end
+   puts newLine.join(" ")
 end
 
 def take_a_number(katz_deli, name)
