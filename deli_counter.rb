@@ -1,13 +1,12 @@
 def line(katz_deli)
-  newLine = ["The line is currently:"]
-    if katz_deli.length > 0
+    if katz_deli.length >= 1
       katz_deli.each_with_index do |name, index|
         newLine = ["The line is currently:"]
         newLine.push("#{index + 1}. #{name}")
         puts newLine.join(" ")
       end
      else
-       return "The line is currently empty."
+       "The line is currently empty."
      end
 end
 
