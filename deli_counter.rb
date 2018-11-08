@@ -1,8 +1,9 @@
 def line(katz_deli)
   newLine = ["The line is currently:"]
-  katz_deli.each_with_index do |name, index|
     if katz_deli.length > 0
-      newLine.push("#{index + 1}. #{name}")
+      katz_deli.each_with_index do |name, index|
+        newLine.push("#{index + 1}. #{name}")
+      end
      else
        return "The line is currently empty."
      end
