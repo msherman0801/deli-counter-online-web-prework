@@ -6,7 +6,7 @@ def line(katz_deli)
         puts newLine.join(" ")
       end
      else
-       "The line is currently empty."
+       puts "The line is currently empty."
      end
 end
 
