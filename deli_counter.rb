@@ -1,13 +1,13 @@
 def line(katz_deli)
-    if katz_deli.length == 0
-      puts "The line is currently empty."
-     else
-      out = ["The line is currently:"]
-      katz_deli.each_with_index do |name, index|
-        out.push("#{index + 1}. #{name}")
-      end
-      puts out.join(" ")
-     end
+  if katz_deli.length == 0
+    puts "The line is currently empty."
+   else
+    out = ["The line is currently:"]
+    katz_deli.each_with_index do |name, index|
+      out.push("#{index + 1}. #{name}")
+    end
+    puts out.join(" ")
+   end
 end
 
 def take_a_number(katz_deli, name)
