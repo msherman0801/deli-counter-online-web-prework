@@ -2,12 +2,13 @@ def line(katz_deli)
   newLine = ["The line is currently:"]
     if katz_deli.length > 0
       katz_deli.each_with_index do |name, index|
+        newLine = ["The line is currently:"]
         newLine.push("#{index + 1}. #{name}")
+        puts newLine.join(" ")
       end
      else
        return "The line is currently empty."
      end
-   puts newLine.join(" ")
 end
 
 def take_a_number(katz_deli, name)
