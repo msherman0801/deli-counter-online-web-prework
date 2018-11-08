@@ -4,11 +4,9 @@ def line(katz_deli)
     if katz_deli.length >= 1
       newLine.push("#{index + 1}. #{name}")
      else
-       newLine = "The line is currently empty."
+       return puts "The line is currently empty."
      end
    end
-   
-   puts newLine.join(" ")
 end
 
 def take_a_number(katz_deli, name)
