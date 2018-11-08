@@ -8,7 +8,7 @@ def line(katz_deli)
      end
    end
    
-   puts newLine.join(" ")
+  newLine.join(" ")
 end
 
 def take_a_number(katz_deli, name)
