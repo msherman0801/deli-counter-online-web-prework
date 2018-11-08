@@ -3,7 +3,6 @@ def line(katz_deli)
   katz_deli.each_with_index do |name, index|
     if katz_deli.length >= 1
       newLine.push("#{index + 1}. #{name}")
-      puts newLine.join(" ")
      else
        return "The line is currently empty."
      end
